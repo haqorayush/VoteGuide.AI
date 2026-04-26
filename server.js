@@ -182,8 +182,8 @@ const getChatResponse = async (message, language, ip) => {
         });
       }
     } else if (userState.simulation_step === 'evm_machine') {
-      if (msg.includes('yes') || msg.includes('i know')) {
-        userState.simulation_step = null; // End simulation
+      userState.simulation_step = null; // End simulation
+      if (msg.includes('yes') || msg.includes('i know') || msg.includes('yep') || msg.includes('yeah') || msg.includes('ok')) {
         return {
           message: "Excellent! You press the blue button, see the red light, hear the beep, and verify on the VVPAT. Simulation complete! You are fully prepared for the real day. Just reply 'voted' when you actually cast your vote!",
           stage: 'ready_to_vote',
@@ -191,7 +191,6 @@ const getChatResponse = async (message, language, ip) => {
           actions: []
         };
       } else {
-        userState.simulation_step = null; // End simulation
         return await fallbackOrGemini(message, language, {
           message: "It's simple: press the blue button next to your chosen candidate's symbol. A red light will glow, and you'll hear a beep. Check the VVPAT machine to see a printed slip of your vote for 7 seconds. Simulation complete! Reply 'voted' on election day!",
           stage: 'ready_to_vote',
