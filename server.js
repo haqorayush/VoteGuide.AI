@@ -9,6 +9,7 @@ import rateLimit from 'express-rate-limit';
 dotenv.config();
 
 const app = express();
+app.set('trust proxy', 1);
 const port = 3000;
 
 // Initialize Gemini API (Will be null if key is missing)
@@ -448,6 +449,10 @@ app.get('/api/state', (req, res) => {
   res.json(getUserState(clientIp));
 });
 
-app.listen(port, () => {
-  console.log(`VoteGuide AI API running on http://localhost:${port}`);
-});
+if (!process.env.VERCEL) {
+  app.listen(port, () => {
+    console.log(`VoteGuide AI API running on http://localhost:${port}`);
+  });
+}
+
+export default app;
