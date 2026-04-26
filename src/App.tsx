@@ -66,25 +66,28 @@ function App() {
     scrollToBottom();
   }, [messages, aiMessages, isTyping]);
 
-  const hasInitialized = useRef(false);
 
-  // Initial greeting
+  // Initial greeting - re-trigger if language changes and no real messages exist
   useEffect(() => {
-    if (!hasInitialized.current) {
+    if (messages.length <= 1) {
+      // Clear messages and re-send hello to get localized greeting
+      setMessages([]);
       handleSend('hello');
-      hasInitialized.current = true;
     }
-  }, [isDarkMode]);
+  }, [language]);
 
   // AI chat initial greeting
   useEffect(() => {
     if (chatMode === 'ai' && aiMessages.length === 0) {
+      const greeting = language === 'hi' 
+        ? "🤖 **AI सहायक मोड** — भारतीय चुनाव प्रक्रिया, मतदान अधिकार, लोकतंत्र, ईवीएम मशीनों या नागरिक शिक्षा के बारे में मुझसे कुछ भी पूछें। मैं Google Gemini द्वारा संचालित हूं!"
+        : "🤖 **AI Assistant Mode** — Ask me anything about the Indian election process, voting rights, democracy, EVM machines, or civic education. I'm powered by Google Gemini!";
       setAiMessages([{
         sender: 'bot',
-        text: "🤖 **AI Assistant Mode** — Ask me anything about the Indian election process, voting rights, democracy, EVM machines, or civic education. I'm powered by Google Gemini!"
+        text: greeting
       }]);
     }
-  }, [chatMode]);
+  }, [chatMode, language]);
 
   const downloadPDF = () => {
     const doc = new jsPDF();

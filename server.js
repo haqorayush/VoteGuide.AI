@@ -69,7 +69,6 @@ const hindiDictionary = {
   "Great! Next, you will be directed to the voting compartment. You will see the Electronic Voting Machine (EVM) with blue buttons next to candidate names and symbols. Do you know how to cast your vote on it?": "बहुत बढ़िया! इसके बाद, आपको वोटिंग कम्पार्टमेंट में भेजा जाएगा। क्या आप जानते हैं कि ईवीएम पर अपना वोट कैसे डालना है?",
   "Excellent! You press the blue button, see the red light, hear the beep, and verify on the VVPAT. Simulation complete! You are fully prepared for the real day. Just reply 'voted' when you actually cast your vote!": "शानदार! सिमुलेशन पूरा हुआ! आप वास्तविक दिन के लिए पूरी तरह तैयार हैं।",
   "Congratulations on exercising your right to vote! Thank you for participating in the democratic process.": "अपने वोट देने के अधिकार का प्रयोग करने पर बधाई! लोकतांत्रिक प्रक्रिया में भाग लेने के लिए धन्यवाद।",
-  "To guide you properly, first let me check your eligibility. Are you 18 or above?": "आपका सही मार्गदर्शन करने के लिए, पहले मुझे आपकी पात्रता की जांच करने दें। क्या आप 18 वर्ष या उससे अधिक के हैं?",
   "It looks like you are under 18 and currently not eligible to vote. You can apply once you turn 18. Would you still like to learn about how the process works for the future?": "ऐसा लगता है कि आप 18 वर्ष से कम हैं और वर्तमान में वोट देने के पात्र नहीं हैं। भविष्य के लिए प्रक्रिया सीखना चाहेंगे?",
   "No problem. You can apply online via the Voters' Service Portal using Form 6. I've brought up the checklist of documents you will need.": "कोई बात नहीं। आप फॉर्म 6 का उपयोग करके ऑनलाइन आवेदन कर सकते हैं। मैंने आवश्यक दस्तावेजों की चेकलिस्ट प्रदान कर दी है।",
   "Have you already applied for or received your Voter ID?": "क्या आपने अपना वोटर आईडी प्राप्त कर लिया है?",
@@ -77,13 +76,35 @@ const hindiDictionary = {
   "Here is the link to the official Electoral Search portal. You can search by your EPIC (Voter ID) number. Let me know when you are done!": "यह आधिकारिक इलेक्टोरल सर्च पोर्टल का लिंक है। पूरा होने पर मुझे बताएं!",
   "It's important to check your name on the electoral roll before voting day, even if you have a card. You can do this on the official portal. Let me know once you've confirmed it.": "वोटिंग से पहले मतदाता सूची में अपना नाम जांचना महत्वपूर्ण है। आप इसे पोर्टल पर कर सकते हैं।",
   "You have already completed your election journey! Thank you for participating in the democratic process. If you would like to start over, just type 'restart'.": "आपने पहले ही अपनी चुनाव यात्रा पूरी कर ली है! यदि आप फिर से शुरू करना चाहते हैं, तो 'restart' टाइप करें।",
-  "I am VoteGuide AI! I can guide you through the election process. (Tip: Add your GEMINI_API_KEY to the .env file to enable my advanced generative AI features!). Are you 18 or older?": "मैं वोटगाइड एआई हूं! मैं चुनाव प्रक्रिया में आपका मार्गदर्शन कर सकता हूं। क्या आप 18 वर्ष या उससे अधिक के हैं?",
   "Remember, you must bring a valid ID like Voter ID, Aadhaar, or PAN. Once verified, you proceed to the EVM machine. Do you know how to cast your vote on the EVM?": "याद रखें, आपको एक वैध आईडी लानी होगी। सत्यापित होने के बाद, आप ईवीएम मशीन पर जाते हैं। क्या आप जानते हैं कि ईवीएम पर अपना वोट कैसे डालना है?",
   "It's simple: press the blue button next to your chosen candidate's symbol. A red light will glow, and you'll hear a beep. Check the VVPAT machine to see a printed slip of your vote for 7 seconds. Simulation complete! Reply 'voted' on election day!": "यह बहुत आसान है: अपने चुने हुए उम्मीदवार के चुनाव चिह्न के पास वाला नीला बटन दबाएँ। एक लाल बत्ती जलेगी और आपको एक 'बीप' की आवाज़ सुनाई देगी। VVPAT मशीन में देखें, आपको अपने वोट की एक पर्ची 7 सेकंड के लिए दिखाई देगी। अभ्यास पूरा हुआ! चुनाव के दिन 'voted' लिखकर जवाब दें!",
   "Here is the general timeline for the upcoming elections. Make sure you register before the cutoff date!": "आगामी चुनावों की सामान्य समयरेखा यहाँ दी गई है। कटऑफ तिथि से पहले पंजीकरण करना सुनिश्चित करें!",
   "If you don't have a standard address proof, you can use recent utility bills (water/electricity/gas), a bank/post office passbook, or a registered rent agreement. Are you ready to apply online via the Voters' Service Portal?": "यदि आपके पास पते का प्रमाण नहीं है, तो आप हाल के बिल या पासबुक का उपयोग कर सकते हैं। क्या आप आवेदन करने के लिए तैयार हैं?",
   "If you lack a birth certificate, you can use your 10th or 12th class mark sheet, PAN card, Aadhaar card, or a driving license as proof of age. Are you ready to apply?": "यदि आपके पास जन्म प्रमाण पत्र नहीं है, तो आप 10वीं/12वीं की मार्कशीट, पैन, आधार या ड्राइविंग लाइसेंस का उपयोग कर सकते हैं।",
-  "If you are missing certain documents, the Election Commission accepts several alternatives. For example, Aadhaar can serve as both age and identity proof. Shall I bring up the checklist so you can apply?": "यदि कुछ दस्तावेज नहीं हैं, तो चुनाव आयोग कई विकल्पों को स्वीकार करता है। क्या मैं चेकलिस्ट लाऊं?"
+  "If you are missing certain documents, the Election Commission accepts several alternatives. For example, Aadhaar can serve as both age and identity proof. Shall I bring up the checklist so you can apply?": "यदि कुछ दस्तावेज नहीं हैं, तो चुनाव आयोग कई विकल्पों को स्वीकार करता है। क्या मैं चेकलिस्ट लाऊं?",
+  "Yes, I am 18+": "हाँ, मैं 18+ हूँ",
+  "No, I am under 18": "नहीं, मैं 18 से कम हूँ",
+  "Yes, I have it": "हाँ, मेरे पास है",
+  "No, I need to apply": "नहीं, मुझे आवेदन करना है",
+  "Yes, I checked": "हाँ, मैंने जाँच की है",
+  "No, not yet": "नहीं, अभी नहीं",
+  "Start Walkthrough": "वॉकथ्रू शुरू करें",
+  "I have voted!": "मैंने वोट दे दिया है!",
+  "Done, I applied!": "हो गया, मैंने आवेदन कर दिया!",
+  "Restart Journey": "यात्रा फिर से शुरू करें",
+  "Done, I checked": "हो गया, मैंने जाँच ली",
+  "Show me the link": "मुझे लिंक दिखाएं",
+  "Yes, I'm ready": "हाँ, मैं तैयार हूँ",
+  "I need more info": "मुझे और जानकारी चाहिए",
+  "Yes, tell me more": "हाँ, मुझे और बताएं",
+  "No, thanks": "नहीं, धन्यवाद",
+  "Yes, I know": "हाँ, मुझे पता है",
+  "No, explain please": "नहीं, कृपया समझाएं",
+  "I have my Voter ID": "मेरे पास मेरी वोटर आईडी है",
+  "Yes, I have my ID": "हाँ, मेरे पास मेरी आईडी है",
+  "No, I don't": "नहीं, मेरे पास नहीं है",
+  "Registration Completion Message": "Congratulations! You have successfully completed your voter registration process.\n\nHere is what happens next:\n1. **Reference Number**: You will soon receive a Reference Number for your application on your registered mobile number or email ID.\n2. **Track Application Status**: You can track the status of your application online using this Reference Number. You can visit the National Voters' Service Portal (NVSP - nvsp.in) or use the Voter Helpline App. Click on the 'Track Application Status' option and enter your Reference Number.\n3. **Name in Electoral Roll**: Once your application is accepted, your name will be added to the electoral roll.\n4. **EPIC Card**: After that, your Voter ID Card (EPIC Card) will be sent to your address by post or you can obtain it through your Booth Level Officer (BLO).\n5. **Keep Checking**: It is always a good idea to keep checking your name in the voter list periodically or before elections to ensure your details are correct.\n\nCongratulations on taking an active role in India's democracy! Do vote and exercise your right.\n\nIf you have any more questions or need any further assistance, feel free to ask.",
+  "Congratulations! You have successfully completed your voter registration process.\n\nHere is what happens next:\n1. **Reference Number**: You will soon receive a Reference Number for your application on your registered mobile number or email ID.\n2. **Track Application Status**: You can track the status of your application online using this Reference Number. You can visit the National Voters' Service Portal (NVSP - nvsp.in) or use the Voter Helpline App. Click on the 'Track Application Status' option and enter your Reference Number.\n3. **Name in Electoral Roll**: Once your application is accepted, your name will be added to the electoral roll.\n4. **EPIC Card**: After that, your Voter ID Card (EPIC Card) will be sent to your address by post or you can obtain it through your Booth Level Officer (BLO).\n5. **Keep Checking**: It is always a good idea to keep checking your name in the voter list periodically or before elections to ensure your details are correct.\n\nCongratulations on taking an active role in India's democracy! Do vote and exercise your right.\n\nIf you have any more questions or need any further assistance, feel free to ask.": "बधाई हो! आपने सफलतापूर्वक अपनी मतदाता पंजीकरण प्रक्रिया पूरी कर ली है।\n\nअब आगे क्या होगा, इसकी जानकारी यहाँ दी गई है:\n1. **संदर्भ संख्या (Reference Number)**: आपको जल्द ही आपके पंजीकृत मोबाइल नंबर या ईमेल आईडी पर आपके आवेदन का एक संदर्भ संख्या प्राप्त होगा।\n2. **आवेदन की स्थिति ट्रैक करें**: आप इस संदर्भ संख्या का उपयोग करके अपने आवेदन की स्थिति को ऑनलाइन ट्रैक कर सकते हैं। इसके लिए आप राष्ट्रीय मतदाता सेवा पोर्टल (NVSP – nvsp.in) पर जा सकते हैं या वोटर हेल्पलाइन ऐप (Voter Helpline App) का उपयोग कर सकते हैं। 'ट्रैक एप्लीकेशन स्टेटस' (Track Application Status) विकल्प पर क्लिक करके अपना संदर्भ संख्या दर्ज करें।\n3. **मतदाता सूची में नाम**: एक बार जब आपका आवेदन स्वीकृत हो जाता है, तो आपका नाम मतदाता सूची में जोड़ दिया जाएगा।\n4. **मतदाता पहचान पत्र (EPIC Card)**: इसके बाद आपको आपका मतदाता पहचान पत्र (EPIC Card) डाक द्वारा आपके पते पर भेज दिया जाएगा या आप इसे अपने बूथ स्तर अधिकारी (BLO) के माध्यम से प्राप्त कर सकते हैं।\n5. **जाँच करते रहें**: चुनावों से पहले या समय-समय पर मतदाता सूची में अपना नाम जांचते रहना हमेशा एक अच्छा विचार है ताकि यह सुनिश्चित हो सके कि आपका नाम सही है।\n\nभारत के लोकतंत्र में एक सक्रिय भूमिका निभाने के लिए आपको बहुत-बहुत बधाई! मतदान अवश्य करें और अपने अधिकार का प्रयोग करें।\n\nयदि आपके कोई और प्रश्न हैं या आपको किसी और सहायता की आवश्यकता है, तो बेझिझक पूछें।"
 };
 
 const fallbackOrGemini = async (message, language, fallbackResponse) => {
@@ -92,7 +113,7 @@ const fallbackOrGemini = async (message, language, fallbackResponse) => {
     try {
       const langPrompt = language === 'hi' ? "Keep your answer entirely in Hindi." : "Keep your answer in English.";
       const aiResponse = await ai.models.generateContent({
-        model: 'gemini-2.0-flash',
+        model: 'gemini-flash-latest',
         contents: `You are VoteGuide AI, an assistant helping an Indian citizen with the election process. ${langPrompt} Keep your answer brief, friendly, and helpful (max 3 sentences). User asks: ${message}`
       });
       return {
@@ -135,7 +156,7 @@ Classify this message into exactly ONE of these intents and respond with ONLY a 
 
   try {
     const result = await ai.models.generateContent({
-      model: 'gemini-2.0-flash',
+      model: 'gemini-flash-latest',
       contents: prompt,
       config: { temperature: 0 }
     });
@@ -152,7 +173,7 @@ const getChatResponse = async (message, language, ip) => {
   let userState = getUserState(ip);
 
   // Reset/Restart
-  if (msg.includes('restart') || msg.includes('start over')) {
+  if (msg.includes('restart') || msg.includes('start over') || (msg.includes('यात्रा') && msg.includes('शुरू'))) {
     resetUserState(ip);
     return {
       message: "Hello! I am VoteGuide AI, your guide to the Indian election process. Let's get started. Are you 18 years or older?",
@@ -167,7 +188,8 @@ const getChatResponse = async (message, language, ip) => {
   if (userState.simulation_step) {
     if (userState.simulation_step === 'id_check') {
       userState.simulation_step = 'evm_machine';
-      if (msg.includes('yes') || msg.includes('i have') || msg.includes('yep')) {
+      const isAffirmativeInput = msg.includes('yes') || msg.includes('i have') || msg.includes('yep') || msg.includes('हाँ') || msg.includes('हा') || msg.includes('मेरे पास है');
+      if (isAffirmativeInput) {
         return {
           message: "Great! Next, you will be directed to the voting compartment. You will see the Electronic Voting Machine (EVM) with blue buttons next to candidate names and symbols. Do you know how to cast your vote on it?",
           stage: 'ready_to_vote',
@@ -186,7 +208,8 @@ const getChatResponse = async (message, language, ip) => {
       }
     } else if (userState.simulation_step === 'evm_machine') {
       userState.simulation_step = null; // End simulation
-      if (msg.includes('yes') || msg.includes('i know') || msg.includes('yep') || msg.includes('yeah') || msg.includes('ok')) {
+      const isAffirmativeInput = msg.includes('yes') || msg.includes('i know') || msg.includes('yep') || msg.includes('yeah') || msg.includes('ok') || msg.includes('हाँ') || msg.includes('पता है') || msg.includes('ठीक');
+      if (isAffirmativeInput) {
         return {
           message: "Excellent! You press the blue button, see the red light, hear the beep, and verify on the VVPAT. Simulation complete! You are fully prepared for the real day. Just reply 'voted' when you actually cast your vote!",
           stage: 'ready_to_vote',
@@ -207,7 +230,7 @@ const getChatResponse = async (message, language, ip) => {
   }
 
   // Handle Simulation Mode Trigger
-  if (msg.includes('start_simulation') || msg.includes('simulate') || msg.includes('how to vote on voting day') || msg.includes('start walkthrough')) {
+  if (msg.includes('start_simulation') || msg.includes('simulate') || msg.includes('how to vote on voting day') || msg.includes('start walkthrough') || msg.includes('वॉकथ्रू') || msg.includes('शुरू')) {
     userState.simulation_step = 'id_check';
     return {
       message: "Welcome to the Voting Day Simulation! First, you'll enter the polling booth. A polling officer will check your name on the voter list and ask for your ID. Do you have an approved ID ready?",
@@ -235,15 +258,17 @@ const getChatResponse = async (message, language, ip) => {
   // Keyword fallbacks — always work even if Gemini intent classifier returns 'unknown'
   const affirmativeKeywords = ['yes', 'yeah', 'yep', 'yup', 'sure', 'okay', 'ok', 'done',
     'correct', 'absolutely', 'of course', 'definitely', 'indeed', 'affirmative',
-    'checked', 'confirmed', 'i have', 'i do', 'i got', 'already', 'i am', 'i\'m'];
+    'checked', 'confirmed', 'i have', 'i do', 'i got', 'already',
+    'हाँ', 'हा', 'सहीं', 'ठीक', 'किया', 'हो गया', 'जी हाँ', 'पास है', 'पता है', 'वोट दे दिया'];
   const negativeKeywords = ['no', 'nope', 'nah', 'not yet', 'haven\'t', 'don\'t have',
-    'do not have', 'not done', 'i don\'t', 'i have not', 'negative'];
+    'do not have', 'not done', 'i don\'t', 'i have not', 'negative',
+    'नहीं', 'नही', 'नहीं किया', 'अभी नहीं', 'जी नहीं', 'नहीं पता'];
 
   const keywordAffirmative = affirmativeKeywords.some(k => msg.includes(k));
   const keywordNegative = negativeKeywords.some(k => msg.includes(k));
 
-  const isAffirmative = intentResult.intent === 'affirmative' || (intentResult.intent === 'unknown' && keywordAffirmative);
-  const isNegative = intentResult.intent === 'negative' || (intentResult.intent === 'unknown' && keywordNegative && !keywordAffirmative);
+  const isAffirmative = intentResult.intent === 'affirmative' || (intentResult.intent === 'unknown' && keywordAffirmative && !keywordNegative);
+  const isNegative = intentResult.intent === 'negative' || (intentResult.intent === 'unknown' && keywordNegative);
   const isQuestion = intentResult.intent === 'question';
   const isAge = intentResult.intent === 'age';
   const userAge = isAge ? intentResult.value : null;
@@ -297,7 +322,7 @@ const getChatResponse = async (message, language, ip) => {
       };
     } else {
       return await fallbackOrGemini(message, language, {
-        message: "To guide you properly, first let me check your eligibility. Are you 18 or above?",
+        message: "Hello! I am VoteGuide AI, your guide to the Indian election process. Let's get started. Are you 18 years or older?",
         stage: 'unknown',
         next_step: 'confirm_age',
         actions: [],
@@ -334,6 +359,15 @@ const getChatResponse = async (message, language, ip) => {
           next_step: 'apply_voter_id',
           actions: [{ type: 'ui_action', name: 'show_checklist' }],
           suggestions: ['Yes, I\'m ready', 'I need more info']
+        };
+      } else if (msg.includes('applied') || msg.includes('ho gaya') || msg.includes('kar diya')) {
+        userState.stage = 'registered';
+        return {
+          message: "Congratulations! You have successfully completed your voter registration process.\n\nHere is what happens next:\n1. **Reference Number**: You will soon receive a Reference Number for your application on your registered mobile number or email ID.\n2. **Track Application Status**: You can track the status of your application online using this Reference Number. You can visit the National Voters' Service Portal (NVSP - nvsp.in) or use the Voter Helpline App. Click on the 'Track Application Status' option and enter your Reference Number.\n3. **Name in Electoral Roll**: Once your application is accepted, your name will be added to the electoral roll.\n4. **EPIC Card**: After that, your Voter ID Card (EPIC Card) will be sent to your address by post or you can obtain it through your Booth Level Officer (BLO).\n5. **Keep Checking**: It is always a good idea to keep checking your name in the voter list periodically or before elections to ensure your details are correct.\n\nCongratulations on taking an active role in India's democracy! Do vote and exercise your right.\n\nIf you have any more questions or need any further assistance, feel free to ask.",
+          stage: 'registered',
+          next_step: 'check_electoral_roll',
+          actions: [],
+          suggestions: ['Done, I checked', 'Show me the link']
         };
       } else {
         return {
@@ -395,7 +429,7 @@ const getChatResponse = async (message, language, ip) => {
 
   // Current Stage: ready_to_vote
   if (userState.stage === 'ready_to_vote') {
-    if (isAffirmative || msg.includes('voted') || msg.includes('done')) {
+    if (isAffirmative || msg.includes('voted') || msg.includes('done') || msg.includes('वोट') || msg.includes('दे दिया')) {
       userState.stage = 'completed';
       return {
         message: "Congratulations on exercising your right to vote! Thank you for participating in the democratic process.",
@@ -420,7 +454,7 @@ const getChatResponse = async (message, language, ip) => {
     if (ai) {
       try {
         const aiResponse = await ai.models.generateContent({
-          model: 'gemini-2.0-flash',
+          model: 'gemini-flash-latest',
           contents: `You are VoteGuide AI, an expert assistant on the Indian election process. The user has just completed their full voter registration journey. ${langPrompt} Answer their question helpfully and clearly. User says: ${message}`
         });
         return {
@@ -443,7 +477,7 @@ const getChatResponse = async (message, language, ip) => {
 
   // Absolute default fallback if somehow stage is missing
   return await fallbackOrGemini(message, language, {
-    message: "I am VoteGuide AI! I can guide you through the election process. (Tip: Add your GEMINI_API_KEY to the .env file to enable my advanced generative AI features!). Are you 18 or older?",
+    message: "Hello! I am VoteGuide AI, your guide to the Indian election process. Let's get started. Are you 18 years or older?",
     stage: 'unknown',
     next_step: 'confirm_age',
     actions: []
@@ -456,8 +490,13 @@ app.post('/api/chat', async (req, res) => {
   const clientIp = req.ip || req.connection.remoteAddress;
   const response = await getChatResponse(message || "", lang, clientIp);
 
-  if (lang === 'hi' && hindiDictionary[response.message]) {
-    response.message = hindiDictionary[response.message];
+  if (lang === 'hi') {
+    if (hindiDictionary[response.message]) {
+      response.message = hindiDictionary[response.message];
+    }
+    if (response.suggestions && Array.isArray(response.suggestions)) {
+      response.suggestions = response.suggestions.map(s => hindiDictionary[s] || s);
+    }
   }
 
   res.json(response);
@@ -475,7 +514,7 @@ app.post('/api/ai-chat', async (req, res) => {
 
   try {
     const aiResponse = await ai.models.generateContent({
-      model: 'gemini-2.0-flash',
+      model: 'gemini-flash-latest',
       contents: `You are VoteGuide AI, an expert assistant on the Indian election process, voting rights, democracy, and civic education. ${langPrompt} Answer the user's question helpfully, clearly, and concisely (max 4-5 sentences). If the question is completely unrelated to elections or civics, politely redirect them. User asks: ${message}`
     });
     res.json({ message: aiResponse.text });
