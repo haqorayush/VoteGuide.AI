@@ -1,6 +1,8 @@
 # VoteGuide AI 🗳️ (Hack2Skill x Google for Developers)
 
-**VoteGuide AI** is an intelligent, interactive civic assistant designed to demystify the Indian election process. Built with modern web technologies, it transforms the often confusing voter registration and preparation journey into a gamified, step-by-step interactive timeline.
+**VoteGuide AI** is a high-performance civic engagement platform engineered to demystify the Indian electoral journey through advanced AI orchestration. Developed with a modern **React-Node.js** architecture, the system integrates **Google Gemini 1.5 Flash** to power a multi-stage conversational state machine. 
+
+Technical highlights include a custom **Zero-Shot Intent Classifier** for natural language state transitions, **IP-based session persistence** for seamless user context, and a secure API layer hardened with **Helmet and Express-Rate-Limiting**. The platform enhances civic readiness by combining generative AI responses with deterministic logic, featuring automated PDF generation via **jsPDF** and real-time geolocation-based polling booth identification.
 
 ## 🌟 The Problem & Vertical
 **Vertical Chosen**: Election Process Education

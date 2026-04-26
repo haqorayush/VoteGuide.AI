@@ -91,7 +91,7 @@ const fallbackOrGemini = async (message, language, fallbackResponse) => {
     try {
       const langPrompt = language === 'hi' ? "Keep your answer entirely in Hindi." : "Keep your answer in English.";
       const aiResponse = await ai.models.generateContent({
-        model: 'gemini-2.5-flash',
+        model: 'gemini-1.5-flash',
         contents: `You are VoteGuide AI, an assistant helping an Indian citizen with the election process. ${langPrompt} Keep your answer brief, friendly, and helpful (max 3 sentences). User asks: ${message}`
       });
       return {
